@@ -21,6 +21,7 @@ venv/
 dist/
 
 # Data files
+.config/
 *.gif
 *.txt
 *.pdf
