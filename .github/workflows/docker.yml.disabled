@@ -1,3 +1,7 @@
+# Disabled on LNK27/browser-harness.
+# This inherited workflow logs into Docker Hub as browseruse/browseruse using
+# DOCKER_USERNAME / DOCKER_PASSWORD. The fork does not publish those images,
+# so push-to-main failed with: Username and password required.
 name: docker
 
 # Cancel in-progress runs when a new commit is pushed to the same branch/PR

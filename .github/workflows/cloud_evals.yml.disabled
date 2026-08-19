@@ -1,3 +1,9 @@
+# Disabled on LNK27/browser-harness.
+# This inherited browser-use workflow dispatches browser-use/cloud using
+# TRIGGER_CLOUD_BUILD_GH_KEY. The fork does not have that secret, so every
+# push to main failed with: Input required and not supplied: github-token.
+# Upstream later removed this trigger (browser-use#5491). Keep the file as
+# .disabled so a future sync can restore it if needed.
 name: cloud_evals
 
 # Cancel in-progress runs when a new commit is pushed to the same branch/PR
